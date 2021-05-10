@@ -1,6 +1,6 @@
 {
   "name": "jk-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/mynane/jk-react",
   "author": "mynane <jikequan@163.com>",
   "license": "MIT",
@@ -16,7 +16,9 @@
     "watch": "tsc -w"
   },
   "types": "dist/index.d.ts",
-  "engines" : { "node" : ">=12.13.0"},
+  "engines": {
+    "node": ">=12.13.0"
+  },
   "devDependencies": {
     "@types/cors": "^2.8.10",
     "@types/express": "^4.17.11",
