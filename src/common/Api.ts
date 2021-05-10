@@ -97,6 +97,13 @@ class Api extends JKUtil {
   }
 
   /**
+   * fragments
+   */
+  public async fragments() {
+    return await this.get("/fragments?pageSize=100");
+  }
+
+  /**
    * saveGroup
    */
   public async saveGroup(values: any) {

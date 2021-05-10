@@ -4,12 +4,12 @@ import Config from "../common/Config";
 import Form from "../common/Form";
 import Loading from "../common/Loading";
 import Login from "../common/Login";
-import Module from "../common/Module";
+import Step from "../common/Step";
+import Template from "../common/Template";
 import Token from "../common/Token";
 import User from "../common/User";
 import Version from "../common/Version";
 import Website from "../common/Website";
-import Websocket from "../common/Websoket";
 
 export interface IBase {
   command?: string;
@@ -23,7 +23,6 @@ export interface IBase {
 export interface IContext {
   Login?: Login;
   Api?: Api;
-  Module?: Module;
   Form?: Form;
   Auth?: Auth;
   User?: User;
@@ -32,5 +31,6 @@ export interface IContext {
   Version?: Version;
   Config?: Config;
   Website?: Website;
-  Websocket?: Websocket;
+  Template?: Template;
+  Step?: Step;
 }
